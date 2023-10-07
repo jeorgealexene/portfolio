@@ -1,10 +1,17 @@
+/* colors */
+:root {
+    --medium-gray: #545454; 
+    --dark-red: #942637; 
+}
+
 body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #333;
+    background-color: var(--medium-gray);
+    /* background-color: #333; */
     color: #fff;
     text-align: center;
     padding: 1em 0;
