@@ -186,12 +186,6 @@ footer {
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2); 
 }
 
-.details{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .wrapper1 {
     display: flex;
     justify-content: flex-end;
