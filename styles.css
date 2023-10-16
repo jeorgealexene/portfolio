@@ -11,10 +11,6 @@ body, h1, h2, p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-/* h1 {
-    font-family: Verdana, Helvetica, serif;
-} */
-
 header {
     position: fixed;
     top: 0; 
@@ -64,7 +60,6 @@ nav a{
 nav a:hover{
     border-color: var(--medium-gray);
     color: var(--dark-red);
-    
 }
 
 main {
@@ -106,7 +101,6 @@ main {
     font-size: 55px;
     font-weight: bold;
     margin-bottom: .6em;
-
 }
 
 #name{
