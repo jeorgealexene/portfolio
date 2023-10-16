@@ -90,52 +90,51 @@ main {
     font-style: italic;
     font-size: 10px; 
 } */
+
 .right-section {
     flex: 1;
     background-color: #fff;
-    padding: 2em 8em 0 2em;
-    border-radius: 15px;
+    padding: 20px;
+    margin-right: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 #hero {
-    margin: 2.5em 0 0 0;
-    font-size: 65px;
+    font-size: 55px;
     font-weight: bold;
+    margin-bottom: .6em;
+
 }
 
 #name{
-    margin: .3em 0 .3em 0;
+    margin: .3em 0;
     text-align: justify;
 }
 
 .hero-desc{
-    font-size: 17px;
+    font-size: 15px;
     color: var(--medium-gray);
     font-weight: normal;
     text-align: justify;
-    padding-top: 1em;
 }
 
 .hero-desc.long{
-    padding-top: 3.5em;
+    padding-top: 2.5em;
 }
 
 .hero-desc.short{
-    padding-top: 2.5em;
+    padding-top: 1.5em;
     font-weight: bold;
     font-style: italic;
 }
 
 .hero-desc.accent {
     font-weight: bold;
-    font-size: 21px;
+    font-size: 20px;
     color: var(--dark-red);
-    padding-top: 0;
-}
-
-#below-hero {
-    margin-top: 3.5em;
-    text-align: right;
 }
 
 .button {
@@ -149,24 +148,6 @@ main {
     transition: border-color 0.3s ease;
     padding: .5em 1em;
 }
-
-/* #intro {
-    text-align: center;
-    margin: 100px auto;
-    padding: 3em 0 0 0;
-    width: fit-content;
-} */
-
-/* #hero {
-    padding: 0.5em; 
-    margin: 0.4em 0;
-    border: solid var(--medium-gray); Border width, style, and color */
-    /* border-width: 4px 0;
-    font-size: 60px;
-    color: var(--dark-red);
-    font-weight: bold;
-} */
-
 
 footer {
     text-align: center;
