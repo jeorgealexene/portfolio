@@ -50,7 +50,6 @@ nav a{
     border-radius: 50px;
     margin-right: 10px;
     text-decoration: none;
-    /* color: white; */
     color: var(--medium-gray);
     font-weight: bold;
     transition: border-color 0.3s ease;
@@ -100,6 +99,7 @@ main {
 #hero {
     font-size: 55px;
     font-weight: bold;
+    margin-top: 2em;
     margin-bottom: .6em;
 }
 
@@ -136,11 +136,15 @@ main {
     border-radius: 50px;
     margin-right: 10px;
     text-decoration: none;
-    /* color: white; */
     color: var(--dark-red);
     font-weight: bold;
-    transition: border-color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease;
     padding: .5em 1em;
+}
+
+.button:hover{
+    background-color: var(--medium-gray);
+    color: white;
 }
 
 footer {
