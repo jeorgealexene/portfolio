@@ -92,6 +92,17 @@ nav li.current a {
     color: var(--dark-red);
 }
 
+footer {
+    text-align: center;
+    padding: 1em 0;
+    color: #fff;
+    background-color: var(--medium-gray);
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    right: 0; 
+}
+
 /* INDEX */
 #hero {
     font-size: 75px;
@@ -140,13 +151,6 @@ nav li.current a {
 .button:hover{
     background-color: var(--medium-gray);
     color: white;
-}
-
-footer {
-    text-align: center;
-    padding: 1em 0;
-    color: #fff;
-    background-color: var(--medium-gray);
 }
 
 /* PROJECTS */
