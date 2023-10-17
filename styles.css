@@ -202,7 +202,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .title h2{
@@ -214,7 +213,8 @@ footer {
     font-weight: bold;
     color: var(--dark-red);
     font-size: 25px;
-    padding-left: .1em;
+    padding-right: 1em;
+    padding-left: .3em;
 }
 
 .logo {
