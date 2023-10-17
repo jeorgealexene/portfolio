@@ -188,7 +188,7 @@ footer {
 .details {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .wrapper1 {
@@ -238,13 +238,15 @@ footer {
     font-size: 20px;    
 }
 
+.parag{
+   padding: 1.5em 0;
+}
+
 .desc-grid{
     display: grid;
     grid-template-columns: 1fr 2fr; 
     font-size: 17px;
     text-align: justify;
-    padding-top: 1.5em;
-
 }
 
 .desc-grid p {
