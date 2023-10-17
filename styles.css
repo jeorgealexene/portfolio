@@ -94,7 +94,7 @@ nav li.current a {
 
 /* INDEX */
 #hero {
-    font-size: 80px;
+    font-size: 75px;
     font-weight: bold;
     margin: 30px;
     border-left: 25px solid var(--light-gray);
