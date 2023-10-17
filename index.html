@@ -5,34 +5,52 @@
     <title>JEORGE ALEXENE - PORTFOLIO</title>
     <link rel="icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
             <img src="favicon.png" alt="Logo">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li class="current"><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <section class="home">
-            <div id="hero">
-                <p class="hero-desc accent">Hi there! I'm</p>
-                <h1 id="name">Jeorge Alexene.</h1>
-                <p class="hero-desc accent">fresh grad | BS Computer Engineering | SoftDev Specialization</p>
-                <p class="hero-desc long">Welcome to my portfolio, where I showcase the projects and certificates that I've had the opportunity to work on throughout my academic journey at PUP Manila. It is through such opportunities that I was able to collaborate and learn with others, enhance my technical skills, and discover my areas of interest in this field, which include UI/UX design, quality assurance, and back-end development. </p>
-                <p class="hero-desc short">I look forward to entering a career path that allows me to further explore these interests while remaining open to new challenges and opportunities.</p>
-            </div>
-            <a class="button" href="#projects">See More</a>
-        </section>
-    </main>
+    <section class="main">
+        <p class="heading">Hi there! I'm</p>
+        <div id="hero">
+            <h1 id="name">Jeorge Alexene.</h1>
+            <p class="hero-desc accent">fresh grad | BS Computer Engineering | SoftDev Specialization</p>
+            <p class="hero-desc">Welcome to my portfolio, where I showcase the projects and certificates that I've had the opportunity to work on throughout my academic journey at PUP Manila. It is through such opportunities that I was able to collaborate and learn with others, enhance my technical skills, and discover my areas of interest in this field, which include UI/UX design, quality assurance, and back-end development. </p>
+            <p class="hero-desc short">I look forward to entering a career path that allows me to further explore these interests while remaining open to new challenges and opportunities.</p>
+        </div>
+        <a class="button" href="projects.html">See More</a>
+        <a class="button" href="mailto:jeorgealexene@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        <a class="button" href="https://www.linkedin.com/in/jeorge-alexene-b06870219">in</a>
+    </section>
 
     <footer>
         <p>&copy; 2023 Jeorge Alexene</p>
     </footer>
 </body>
 </html>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+  // Get the current page URL
+  const currentPageUrl = window.location.href;
+
+  // Get all navigation links
+  const navLinks = document.querySelectorAll("nav a");
+
+  // Loop through the links and add a 'current' class to the matching link
+  navLinks.forEach(function (link) {
+    if (link.href === currentPageUrl) {
+      link.parentElement.classList.add("current");
+    }
+  });
+});
+
+</script>
