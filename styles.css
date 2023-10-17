@@ -213,8 +213,8 @@ footer {
 .title p{
     font-weight: bold;
     color: var(--dark-red);
-    font-size: 28px;
-    padding-left: .3em;
+    font-size: 25px;
+    padding-left: .1em;
 }
 
 .logo {
