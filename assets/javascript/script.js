@@ -46,3 +46,22 @@ for (let i = 0; i < navigationLinks.length; i++) {
         }
     })
 }
+
+// For contact form
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycby0Tc4CW5cFVlcgr3XMTke6eBzavPHp7KO8p3fc-9WMMUW9_WH6b_TuRZhuGUX4TLbZ/exec'
+const form1 = document.forms['submit-to-google-sheet']
+const confirmMsg = document.getElementById("confirmMsg")
+
+form1.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form1)})
+    .then(response => {
+        confirmMsg.innerHTML="Message Sent!"
+        setTimeout(function () {
+            confirmMsg.innerHTML=""
+        }, 5000)
+        form1.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
