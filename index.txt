@@ -1,0 +1,184 @@
+#About
+
+Hi there! You can call me Jeorge or Alex. I recently completed a bachelor's degree in Computer Engineering from the 
+Polytechnic University of the Philippines (PUP) with a specialization in Software 
+Development. This is my portfolio where I showcase the projects that I had the 
+opportunity to work on throughout my academic journey. 
+
+It is through such projects that I was able to collaborate and learn with others, 
+enhance my technical skills, and discover my areas of interest in this field, 
+which include UI/UX design, quality assurance, and back-end development. 
+
+I look forward 
+to entering a career path that allows me to further explore these interests 
+while remaining open to new challenges and opportunities.
+
+Programming Background
+Android App Development (React Native JavaScript and Firebase)- <i class="fa-solid fa-mobile-screen"></i>
+Web Development (HTML, CSS, JavaScript, and PHP) - <i class="fa-solid fa-window-maximize"></i>
+Android Game Development (Android Studio (Java)) - <i class="fa-solid fa-gamepad"></i>
+Other fundamentals (Agile Methodology (Scrum Framework), GitHub, GitLab)- <i class="fa-solid fa-code-merge"></i>
+
+#Experience
+Trainings
+Quality Assurance Intern - PearlPay, Inc.
+August 15, 2022 - October 7, 2022
+An internship where I learned about manual software testing, Agile methodology - Scrum framework, GitLab, 
+and effective collaboration and communication with the developers and other colleagues. 
+
+Responsive Web Design Certification — freeCodeCamp
+August 14, 2021 - September 11, 2021
+A developer certification with approximately 300 hours of coursework in responsive web design.
+
+SMART Android Mobile Apps Development for Beginners — TESDA Online Program
+August 16, 2021 - August 30, 2021
+An online program focused on the fundamentals of Android Studio. It is provided by the Technical Education and Skills Development Authority (TESDA).
+
+Affiliations
+Institute of Computer Engineers of the Philippines (ICpEP) — Student Edition
+2020 - 2021
+Member
+
+#Portfolio
+HanDog
+HanDog is a companion app for the device developed by the same team. The device is attached to a dog's harness 
+which reads its heart rate, temperature, and location. In the application, the pet owner can view these data in 
+real-time, keep track of pet's history, and get alerts for irregular readings.
+
+Type
+Mobile Application (Android)
+
+Team
+4505 (4 members)
+
+Role
+Back-End Developer
+
+Language
+React Native JavaScript, Firebase
+
+Tool
+Visual Studio Code, Google Firebase Console
+
+Date
+April 2023 - July 2023
+---------------
+SCTap
+SCTap is a user-friendly app for senior citizens. It helps facilitate their access to their smartphones which 
+include communication, entertainment, and reminders. Its main parts are customizable according to the seniors' 
+preferences and understanding of gadgets.
+Type
+Mobile Application (Android)
+
+Team
+BGM (3 members)
+
+Role
+Back-End Developer
+
+Language
+React Native JavaScript, Firebase
+
+Tool
+Visual Studio Code, Google Firebase Console
+
+Date
+March 2023 - June 2023
+---------------
+
+SHaBoo
+SHaBoo is the short term for Study Habits Booster. It aids students in managing their academic tasks, boost their 
+productivity, and give them small affirmations. It provides a Pomodoro timer, a note taker, a flashcard maker, and 
+a random affirmation cards generator.
+Type
+Web Application
+
+Team
+Amber Bee (4 members)
+
+Role
+Back-End Developer, UI/UX Designer
+
+Language
+HTML, JavaScript, CSS, PHP
+
+Tool
+Visual Studio Code, XAMPP
+
+Date
+Nov. 2021 - Feb. 2022
+---------------
+
+Edu-Seek
+Edu-Seek is an educational game that provides entertainment by challenging the players to seek all objects belonging 
+to the provided category from the scattered objects. Each category targets one of the SDGs: Quality Education, 
+Life Below Water, and Life on Land.
+Type
+Mobile Game (Android)
+
+Team
+JFAXene (4 members)
+
+Role
+UI/UX Designer, Front-End Developer
+
+Language
+Java
+
+Tool
+Android Studio
+
+Date
+April 2021 - July 2021
+---------------
+
+Hear Me Out!
+Hear Me Out! challenges and develops the players’ auditory and visual learning skills. It has three categories of sounds, 
+which include animal sounds, spelling, and language. Every stage within each category provides new knowledge, which is 
+elaborated upon through a short trivia section afterward.
+Type
+Mobile Game (Android)
+
+Team
+SPECS (7 members)
+
+Role
+UI/UX Designer, Front-End Developer
+
+Language
+Java
+
+Tool
+Android Studio
+
+Date
+April 2021 - July 2021
+
+---------------
+Add to Cart
+Add to Cart is a memory game that challenges the player to remember the ingredients list and add them to the cart correctly 
+once the game begins. The number of ingredients to be memorized increases as the player progresses. It has three difficulty 
+modes with three stages each.
+Type
+Mobile Game (Android)
+
+Team
+JFXene (3 members)
+
+Role
+UI/UX Designer, Front-End Developer
+
+Language
+Java
+
+Tool
+Android Studio
+
+Date
+Nov. 2020 - Feb. 2021
+
+#Contact
+I am actively seeking a career opportunity in the field of Software Development. 
+If you have any inquiries or would like to discuss potential opportunities, 
+feel free to reach out to me via the contact information provided or the contact form below. 
+Thank you and I look forward to working with you soon!
