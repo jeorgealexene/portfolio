@@ -46,7 +46,7 @@
     --jet: hsl(0, 0%, 22%);
     --onyx: hsl(240, 1%, 17%);
     --eerie-black-1: hsl(240, 2%, 13%);
-    --eerie-black-1: hsl(240, 2%, 12%);
+    --eerie-black-2: hsl(240, 2%, 12%);
     --smoky-black: hsl(0, 0%, 7%);
     --white-1: hsl(0, 0%, 100%);
     --white-2: hsl(0, 0%, 98%);
@@ -749,6 +749,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
+
+#confirmMsg {
+    color: var(--vegas-gold);
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 3px;
+}
 
 
 /* MEDIA QUERIES */
