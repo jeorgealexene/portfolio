@@ -47,8 +47,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
     })
 }
 
-// For contact form
-
+// contact form responses
 const scriptURL = 'https://script.google.com/macros/s/AKfycby0Tc4CW5cFVlcgr3XMTke6eBzavPHp7KO8p3fc-9WMMUW9_WH6b_TuRZhuGUX4TLbZ/exec'
 const form1 = document.forms['submit-to-google-sheet']
 const confirmMsg = document.getElementById("confirmMsg")
