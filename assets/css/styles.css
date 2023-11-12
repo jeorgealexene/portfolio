@@ -1,7 +1,7 @@
 :root {
     /* COLORS */
     --medium-gray: #545454; 
-    /* --light-gray: #d3d3d3;  */
+    --light-gray: #d3d3d3; 
     --dark-red: #942637; 
 
     /* gradient */
@@ -42,7 +42,6 @@
     );
 
      /* solid */
-
     --jet: hsl(0, 0%, 22%);
     --onyx: hsl(240, 1%, 17%);
     --eerie-black-1: hsl(240, 2%, 13%);
@@ -56,8 +55,8 @@
     --light-gray-70: hsla(0, 0%, 84%, 0.7);
     --bittersweet-shimer: hsl(0, 43%, 51%);
 
-     /* TYPOGRAPHY */
 
+     /* TYPOGRAPHY */
      /* font-family */
      --ff-poppins: 'Poppins', sans-serif;
 
@@ -77,17 +76,20 @@
     --fw-500: 500;
     --fw-600: 600;
 
-     /* shadow */
+
+     /* SHADOW */
     --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
     --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
     --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
     --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
     --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
+
     /* TRANSITION */
     --transition-1: 0.25s ease;
     --transition-2: 0.5s ease-in-out;
 }
+
 
 /* RESET */
 *, *::before, *::after {
@@ -121,9 +123,7 @@ input, textarea {
 }
 
 :focus { outline-color: var(--orange-yellow-crayola); }
-
 html { font-family: var(--ff-poppins); }
-
 body { background: var(--smoky-black); }
 
 
@@ -169,7 +169,6 @@ body { background: var(--smoky-black); }
 }
  
 .icon-box i { --i-stroke-width: 35px; }
-
 article { display: none; }
 
 article.active {
@@ -184,7 +183,6 @@ article.active {
 
 .h2, .h3, .h4, .h5 {
     color: var(--white-2);
-    /* text-transform: capitalize; */
 }
 
 .h2 { font-size: var(--fs-1); }
@@ -211,12 +209,14 @@ article.active {
     border-radius: 3px;
 }
 
+
 /* MAIN */
 main {
     margin: 15px 12px;
     margin-bottom: 75px;
     min-width: 259px;
 }
+
 
 /* SIDEBAR */
 .sidebar {
@@ -349,6 +349,7 @@ main {
 
 .social-item .social-link:hover { color: var(--light-gray); }
 
+
 /* NAVBAR */
 .navbar {
     position: fixed;
@@ -397,7 +398,6 @@ main {
 
 /* skills */
 .skills { margin-bottom: 35px; }
-
 .skills-title { margin-bottom: 20px; }
 
 .skills-list { 
@@ -436,7 +436,6 @@ main {
 }
 
 .skills-content-box { text-align: center }
-
 .skills-item-title { margin-bottom: 7px }
 
 .skills-item-text {
@@ -466,7 +465,6 @@ main {
 }
 
 .timeline-item { position: relative }
-
 .timeline-item:not(:last-child) { margin-bottom: 20px}
 
 .timeline-item-title {
@@ -641,7 +639,6 @@ main {
 
 
 /* CONTACT */
-
 .contacts {
     display: grid;
     grid-template-columns: 1fr;
@@ -673,7 +670,6 @@ main {
 }
 
 .contact-form { margin-bottom: 10px; }
-
 .form-title { margin-bottom: 20px; }
 
 .input-wrapper {
@@ -694,7 +690,6 @@ main {
 }
 
 .form-input::placeholder { font-weight: var(--fw-500); }
-
 .form-input:focus { border-color: var(--orange-yellow-crayola); }
 
 textarea.form-input {
@@ -706,7 +701,6 @@ textarea.form-input {
 }
 
 textarea.form-input::-webkit-resizer { display: none; }
-
 .form-input:focus:invalid { border-color: var(--bittersweet-shimer); }
 
 .form-btn {
@@ -738,7 +732,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 }
 
 .form-btn i { font-size: var(--fs-4) }
-
 .form-btn:hover { background: var(--bg-gradient-yellow-1); }
 .form-btn:hover::before { background: var(--bg-gradient-yellow-2); }
 
@@ -759,7 +752,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 /* MEDIA QUERIES */
-
 /* larger than 450px screen */
 @media (min-width: 450px) {
 
@@ -821,15 +813,10 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
 
     .sidebar.active { max-height: 584px; }
-
     .sidebar-info { gap: 25px; }
-
     .photo-box { border-radius: 30px; }
-
-    .photo box img { width: 120px; }
-
+    .photo-box img { width: 120px; }
     .info-content .name { margin-bottom: 15px; }
-
     .info-content .title { padding: 5px 18px; }
 
     .info_more-btn {
@@ -844,9 +831,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
 
     .info_more-btn i { display: none; }
-
     .separator { margin: 32px 0; }
-
     .contacts-list { gap: 20px; }
 
     .contact-info {
@@ -897,7 +882,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     /* for projects */
     .project-img { border-radius: 16px; } 
 
-
     /* for contact */
     .input-wrapper {
         gap: 30px;
@@ -905,7 +889,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
     
     .form-input { padding: 15px 20px; }
-
     textarea.form-input { margin-bottom: 30px; }
 
     .form-btn {
@@ -933,7 +916,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 
     /* for projects */
     .article-title { padding-bottom: 20px; }
-
     .project-list { grid-template-columns: 1fr 1fr; }
     
     .project-item-icon-box {
@@ -942,21 +924,16 @@ textarea.form-input::-webkit-resizer { display: none; }
         line-height: 1.2;
     }
 
-    .project-list .separator {
-        display: none;
-    }
+    .project-list .separator { display: none; }
 
-    .details-grid {
-        grid-template-columns: .7fr 2fr;
-    }
+    .details-grid { grid-template-columns: .7fr 2fr; }
 
-    .project-category {
-        font-size: var(--fs-8);
-    }
+    .project-category { font-size: var(--fs-8); }
 
     /* for contacts */
     .contacts { grid-template-columns: 2fr 1fr;}
     .input-wrapper { grid-template-columns: 1fr 1fr; }
+
     .form-btn {
         width: max-content;
         margin-left: auto;
@@ -1016,19 +993,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
 
     /* for projects */ 
-    .project-list { 
-        grid-template-columns: repeat(3, 1fr);
-    }
+    .project-list { grid-template-columns: repeat(3, 1fr); }
 
-    .details-grid {
-        grid-template-columns: 1fr 2.3fr;
-    }
+    .details-grid { grid-template-columns: 1fr 2.3fr; }
 
-    .project-item-icon-box {
-        font-size: 10.9px;
-    }
-
-
+    .project-item-icon-box { font-size: 10.9px; }
 } 
 
 /* larger than 1250px screen */
@@ -1087,7 +1056,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
 
     .info-content .title { margin: auto; }
-
     .info_more-btn { display: none; }
 
     .sidebar-info_more {
@@ -1122,7 +1090,5 @@ textarea.form-input::-webkit-resizer { display: none; }
     .project-item-icon-box {
         font-size: 10.4px;
     }
-
-
 } 
 
