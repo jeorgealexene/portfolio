@@ -19,7 +19,7 @@
 
             <div class="sidebar-info">
                 <figure class="photo-box">
-                    <img src="./assets/images/formal-picture.png" alt="Jeorge Alexene - Photo" width="88">
+                    <img src="./assets/images/formal-picture-transparent-bg.png" alt="Jeorge Alexene - Photo" width="88">
                 </figure>
 
                 <div class="info-content">
@@ -175,7 +175,7 @@
                             <div class="skills-content-box">
                                 <h4 class="h4 skills-item-title">DevOps and Tools</h4>
                                 <p class="skills-item-text">
-                                    Git, Docker, AWS, CI/CD
+                                    Git, Docker, AWS, CI/CD pipelines
                                 </p>
                             </div>
                         </li>
@@ -198,16 +198,24 @@
                     <h2 class="h2 article-title">Experience</h2>
                 </header>
 
-                <!-- trainings -->
+                <!-- work -->
                 <section class="timeline">
                   <div class="title-wrapper">
                     <div class="icon-box">
                         <i class="fa-solid fa-laptop-code"></i>
                     </div>
-                    <h3 class="h3">Trainings</h3>
+                    <h3 class="h3">Work</h3>
                   </div>
 
                   <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Junior Software Engineer — CRESS MIRAI Inc.</h4>
+                        <span>February 19, 2024 - Present</span>
+                        <p class="timeline-text">
+                            My first job as a fresh graduation, which greatly hones my character, work ethics, and communication skills.
+                            The projects I worked on here provided opportunities to enhance my full-stack development, DevOps, investigation, and documentations skills.
+                        </p>
+                    </li>
                     <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">Software Quality Assurance Intern — PearlPay, Inc.</h4>
                         <span>August 15, 2022 - October 7, 2022</span>
@@ -216,6 +224,20 @@
                             and effective collaboration and communication with the developers and other colleagues. 
                         </p>
                     </li>
+                  </ol>
+
+                </section>
+
+                <!-- certifications and trainings -->
+                <section class="timeline">
+                  <div class="title-wrapper">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="h3">Certifications and Trainings</h3>
+                  </div>
+
+                  <ol class="timeline-list">
                     <li class="timeline-item">
                         <h4 class="h4 timeline-item-title">HTML, CSS, and Javascript for Web Developers — Coursera</h4>
                         <span>November 13, 2023 - December 15, 2023</span>
@@ -285,130 +307,76 @@
             </article>
 
             <!-- SKILLS -->
-            <article class="projects " data-page="projects">
+            <article class="projects " data-page="skills">
                 <header>
                     <h2 class="h2 article-title">Skills</h2>
                 </header>
-
+                <!--Projects-->
                 <section class="projects">
+                    <h3 class="h3 skills-title">Projects</h3>
+                    <ul>
+                        <!-- 2nd project -->
+                        <li class="project-item">
+                            <h3 class="project-title">Japanese Online Travel Agency Platform</h3>
+                            <div class="type-date">
+                            </div>
+                            <div class="details-grid">
+                                <p class="project-category">Web Application</p>
+                                <p class="project-category smaller">OCT 2024 - PRESENT</p>
+                                <p class="project-category yellow">Role:</p>
+                                <p class="project-category">Full-stack Developer</p>
+                                <p class="project-category yellow">Tech Stack:</p>
+                                <p class="project-category">PHP (CakePHP and CodeIgniter), Python, Java, Javascript, MySQL</p>
+                                <p class="project-category yellow">Tools:</p>
+                                <p class="project-category">GitHub, AWS Cloud Services, Redmine</p>
+                            </div>
+                            <div class="separator"></div>
+                        </li>
+                        <!-- 1st project -->
+                        <li class="project-item">
+                            <h3 class="project-title">Data Migration Application</h3>
+                            <div class="type-date">
+                            </div>
+                            <div class="details-grid">
+                                <p class="project-category">Microservice</p>
+                                <p class="project-category smaller">MAY 2024 - AUG 2024</p>
+                                <p class="project-category yellow">Role:</p>
+                                <p class="project-category">Backend Developer</p>
+                                <p class="project-category yellow">Tech Stack:</p>
+                                <p class="project-category">PHP (Laravel), PostgreSQL</p>
+                                <p class="project-category yellow">Tools:</p>
+                                <p class="project-category">GitHub, phpMyAdmin, XAMPP, AWS Cloud Services, Monday.com</p>
+                            </div>
+                            <div class="separator"></div>
+                        </li>
+                    </ul>
+                    <h5 class="h5">Academic Projects</h5>
                     <ul class="project-list">
-                        <!-- Add to Cart -->
-                        <li class="project-item">
-                            <a>
-                                <figure class="project-img">
-                                    <!-- <div class="project-item-icon-box">
-                                        <i class="fa-regular fa-heart"></i>
-                                    </div> -->
-                                    <div class="project-item-icon-box">
-                                        <p>Add to Cart is a memory game that challenges the player to remember the ingredients list and add them to the cart correctly 
-                                            once the game begins. The number of ingredients to be memorized increases as the player progresses. It has three difficulty 
-                                            modes with three stages each.
-                                        </p>
-                                    </div>
-                                    <img src="./assets/images/project1.png" alt="Add to Cart" loading="lazy">
-                                </figure>
-                                <h3 class="project-title">Add to Cart</h3>
-                                <div class="type-date">
-                                    <p class="project-category ">Android Game</p>
-                                    <p class="project-category smaller">NOV 2020 - FEB 2021</p>
-                                </div>
-                                <div class="details-grid">
-                                    <p class="project-category yellow">Role:</p>
-                                    <p class="project-category ">UI/UX Designer, Front-End Developer</p>
-                                    <p class="project-category yellow">Language:</p>
-                                    <p class="project-category ">Java</p>
-                                    <p class="project-category yellow">Tool/s:</p>
-                                    <p class="project-category ">Android Studio</p>
-                                </div>
-                                <div class="separator"></div>
-                            </a>
-                        </li>
-
-                        <!-- Hear Me Out! -->
-                        <li class="project-item">
-                            <a >
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <p>Hear Me Out! challenges and develops the players’ auditory and visual learning skills. It has three categories of sounds, 
-                                            which include animal sounds, spelling, and language. Every stage within each category provides new knowledge, which is 
-                                            elaborated upon through a short trivia section afterward.
-                                        </p>
-                                    </div>
-
-                                    <img src="./assets/images/project2.png" alt="Hear Me Out!" loading="lazy">
-                                </figure>
-                                <h3 class="project-title">Hear Me Out!</h3>
-                                <div class="type-date">
-                                    <p class="project-category">Android Game</p>
-                                    <p class="project-category smaller">APR 2021 - JUL 2021</p>
-                                </div>
-                                <div class="details-grid">
-                                    <p class="project-category yellow">Role:</p>
-                                    <p class="project-category ">UI/UX Designer, Front-End Developer</p>
-                                    <p class="project-category yellow">Language:</p>
-                                    <p class="project-category ">Java</p>
-                                    <p class="project-category yellow">Tool/s:</p>
-                                    <p class="project-category ">Android Studio</p>
-                                </div>
-                                <div class="separator"></div>
-                            </a>
-                        </li>
-                        
-                        <!-- Edu-Seek -->
+                        <!-- HanDog -->
                         <li class="project-item">
                             <a>
                                 <figure class="project-img">
                                     <div class="project-item-icon-box">
-                                        <p>Edu-Seek is an educational game that provides entertainment by challenging the players to seek all objects belonging 
-                                            to the provided category from the scattered objects. Each category targets one of the SDGs: Quality Education, 
-                                            Life Below Water, and Life on Land.
+                                        <p>HanDog is a companion app for the device developed by the same team. The device is attached to a dog's harness 
+                                            which reads its heart rate, temperature, and location. In the application, the pet owner can view these data in 
+                                            real-time, keep track of pet's history, and get alerts for irregular readings.
                                         </p>
                                     </div>
-
-                                    <img src="./assets/images/project3.png" alt="Edu-Seek" loading="lazy">
+            
+                                    <img src="./assets/images/project6.png" alt="HanDog" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">Edu-Seek</h3>
+                                <h3 class="project-title">HanDog</h3>
                                 <div class="type-date">
-                                    <p class="project-category">Android Game</p>
-                                    <p class="project-category smaller">APR 2021 - JUL 2021</p>
+                                    <p class="project-category">Android Application</p>
+                                    <p class="project-category smaller">APR 2023 - JUL 2023</p>
                                 </div>
                                 <div class="details-grid">
                                     <p class="project-category yellow">Role:</p>
-                                    <p class="project-category ">UI/UX Designer, Front-End Developer</p>
-                                    <p class="project-category yellow">Language:</p>
-                                    <p class="project-category ">Java</p>
-                                    <p class="project-category yellow">Tool/s:</p>
-                                    <p class="project-category ">Android Studio</p>
-                                </div>
-                                <div class="separator"></div>
-                            </a>
-                        </li>
-
-                        <!-- SHaBoo -->
-                        <li class="project-item">
-                            <a>
-                                <figure class="project-img">
-                                    <div class="project-item-icon-box">
-                                        <p>SHaBoo is the short term for Study Habits Booster. It aids students in managing their academic tasks, boost their 
-                                            productivity, and give them small affirmations. It provides a Pomodoro timer, a note taker, a flashcard maker, and 
-                                            a random affirmation cards generator.
-                                        </p>
-                                    </div>
-
-                                    <img src="./assets/images/project4.png" alt="SHaBoo" loading="lazy">
-                                </figure>
-                                <h3 class="project-title">SHaBoo</h3>
-                                <div class="type-date">
-                                    <p class="project-category">Web Application</p>
-                                    <p class="project-category smaller">Nov 2021 - Feb 2022</p>
-                                </div>
-                                <div class="details-grid">
-                                    <p class="project-category yellow">Role:</p>
-                                    <p class="project-category ">Back-End Developer, UI/UX Designer</p>
-                                    <p class="project-category yellow">Language:</p>
-                                    <p class="project-category ">HTML, JavaScript, CSS, PHP</p>
-                                    <p class="project-category yellow">Tool/s:</p>
-                                    <p class="project-category ">Visual Studio Code, XAMPP</p>
+                                    <p class="project-category">Backend Developer</p>
+                                    <p class="project-category yellow">Tech Stack:</p>
+                                    <p class="project-category">React Native JavaScript, Google Firebase</p>
+                                    <p class="project-category yellow">Tools:</p>
+                                    <p class="project-category">GitHub, Google Firebase Console, React Expo, Visual Studio Code</p>
                                 </div>
                                 <div class="separator"></div>
                             </a>
@@ -434,46 +402,204 @@
                                 </div>
                                 <div class="details-grid">
                                     <p class="project-category yellow">Role:</p>
-                                    <p class="project-category ">Back-End Developer</p>
-                                    <p class="project-category yellow">Language:</p>
-                                    <p class="project-category ">React Native JavaScript, Firebase</p>
-                                    <p class="project-category yellow">Tool/s:</p>
-                                    <p class="project-category ">Visual Studio Code, Google Firebase Console</p>
+                                    <p class="project-category">Backend Developer</p>
+                                    <p class="project-category yellow">Tech Stack:</p>
+                                    <p class="project-category">React Native JavaScript, Google Firebase</p>
+                                    <p class="project-category yellow">Tools:</p>
+                                    <p class="project-category">GitHub, Google Firebase Console, React Expo, Visual Studio Code</p>
                                 </div>
                                 <div class="separator"></div>
                             </a>
                         </li>
 
-                        <!-- HanDog -->
+                        <!-- SHaBoo -->
                         <li class="project-item">
                             <a>
                                 <figure class="project-img">
                                     <div class="project-item-icon-box">
-                                        <p>HanDog is a companion app for the device developed by the same team. The device is attached to a dog's harness 
-                                            which reads its heart rate, temperature, and location. In the application, the pet owner can view these data in 
-                                            real-time, keep track of pet's history, and get alerts for irregular readings.
+                                        <p>SHaBoo is the short term for Study Habits Booster. It aids students in managing their academic tasks, boost their 
+                                            productivity, and give them small affirmations. It provides a Pomodoro timer, a note taker, a flashcard maker, and 
+                                            a random affirmation cards generator.
                                         </p>
                                     </div>
 
-                                    <img src="./assets/images/project6.png" alt="HanDog" loading="lazy">
+                                    <img src="./assets/images/project4.png" alt="SHaBoo" loading="lazy">
                                 </figure>
-                                <h3 class="project-title">HanDog</h3>
+                                <h3 class="project-title">SHaBoo</h3>
                                 <div class="type-date">
-                                    <p class="project-category">Android Application</p>
-                                    <p class="project-category smaller">APR 2023 - JUL 2023</p>
+                                    <p class="project-category">Web Application</p>
+                                    <p class="project-category smaller">Nov 2021 - Feb 2022</p>
                                 </div>
                                 <div class="details-grid">
                                     <p class="project-category yellow">Role:</p>
-                                    <p class="project-category ">Back-End Developer</p>
-                                    <p class="project-category yellow">Language:</p>
-                                    <p class="project-category ">React Native JavaScript, Firebase</p>
-                                    <p class="project-category yellow">Tool/s:</p>
-                                    <p class="project-category ">Visual Studio Code, Google Firebase Console</p>
+                                    <p class="project-category">Backend Developer, UI/UX Designer</p>
+                                    <p class="project-category yellow">Tech Stack:</p>
+                                    <p class="project-category">HTML, JavaScript, CSS, PHP, MySQL</p>
+                                    <p class="project-category yellow">Tools:</p>
+                                    <p class="project-category">phpMyAdmin, XAMPP, Visual Studio Code</p>
+                                </div>
+                                <div class="separator"></div>
+                            </a>
+                        </li>
+
+                        <!-- Hear Me Out! -->
+                        <li class="project-item">
+                            <a >
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <p>Hear Me Out! challenges and develops the players’ auditory and visual learning skills. It has three categories of sounds, 
+                                            which include animal sounds, spelling, and language. Every stage within each category provides new knowledge, which is 
+                                            elaborated upon through a short trivia section afterward.
+                                        </p>
+                                    </div>
+
+                                    <img src="./assets/images/project2.png" alt="Hear Me Out!" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Hear Me Out!</h3>
+                                <div class="type-date">
+                                    <p class="project-category">Android Game</p>
+                                    <p class="project-category smaller">APR 2021 - JUL 2021</p>
+                                </div>
+                                <div class="details-grid">
+                                    <p class="project-category yellow">Role:</p>
+                                    <p class="project-category">UI/UX Designer, Frontend Developer</p>
+                                    <p class="project-category yellow">Tech Stack:</p>
+                                    <p class="project-category">Java</p>
+                                    <p class="project-category yellow">Tools:</p>
+                                    <p class="project-category">Android Studio</p>
+                                </div>
+                                <div class="separator"></div>
+                            </a>
+                        </li>
+                        
+                        <!-- Edu-Seek -->
+                        <li class="project-item">
+                            <a>
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <p>Edu-Seek is an educational game that provides entertainment by challenging the players to seek all objects belonging 
+                                            to the provided category from the scattered objects. Each category targets one of the SDGs: Quality Education, 
+                                            Life Below Water, and Life on Land.
+                                        </p>
+                                    </div>
+
+                                    <img src="./assets/images/project3.png" alt="Edu-Seek" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Edu-Seek</h3>
+                                <div class="type-date">
+                                    <p class="project-category">Android Game</p>
+                                    <p class="project-category smaller">APR 2021 - JUL 2021</p>
+                                </div>
+                                <div class="details-grid">
+                                    <p class="project-category yellow">Role:</p>
+                                    <p class="project-category">UI/UX Designer, Front-End Developer</p>
+                                    <p class="project-category yellow">Tech Stack:</p>
+                                    <p class="project-category">Java</p>
+                                    <p class="project-category yellow">Tools:</p>
+                                    <p class="project-category">Android Studio</p>
+                                </div>
+                                <div class="separator"></div>
+                            </a>
+                        </li>
+
+                        <!-- Add to Cart -->
+                        <li class="project-item">
+                            <a>
+                                <figure class="project-img">
+                                    <!-- <div class="project-item-icon-box">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </div> -->
+                                    <div class="project-item-icon-box">
+                                        <p>Add to Cart is a memory game that challenges the player to remember the ingredients list and add them to the cart correctly 
+                                            once the game begins. The number of ingredients to be memorized increases as the player progresses. It has three difficulty 
+                                            modes with three stages each.
+                                        </p>
+                                    </div>
+                                    <img src="./assets/images/project1.png" alt="Add to Cart" loading="lazy">
+                                </figure>
+                                <h3 class="project-title">Add to Cart</h3>
+                                <div class="type-date">
+                                    <p class="project-category">Android Game</p>
+                                    <p class="project-category smaller">NOV 2020 - FEB 2021</p>
+                                </div>
+                                <div class="details-grid">
+                                    <p class="project-category yellow">Role:</p>
+                                    <p class="project-category">UI/UX Designer, Frontend Developer</p>
+                                    <p class="project-category yellow">Tech Stack:</p>
+                                    <p class="project-category">Java</p>
+                                    <p class="project-category yellow">Tools:</p>
+                                    <p class="project-category">Android Studio</p>
                                 </div>
                                 <div class="separator"></div>
                             </a>
                         </li>
                     </ul>
+                </section>
+
+                <!--Skills-->
+                <!--Backend-->
+                <section class="projects">
+                    <h3 class="h3 skills-title">Technical Skills</h3>
+                    <h3 class="project-title">Backend</h3>
+                    <ul>
+                        <li class="project-item">
+                            <div class="details-grid">
+                               <h3 class="project-title yellow">Python</h3>
+                               <h3 class="project-title yellow">PHP(CodeIgniter, CakePHP, Vanilla, Laravel)</h3>
+                               <h3 class="project-title yellow">Java</h3>
+                               <h3 class="project-title yellow">C#</h3>
+                               <h3 class="project-title yellow">C++</h3>
+                            </div>
+                        </li>
+                        
+                        <li class="project-item">
+                            <div class="details-grid">
+                               <h3 class="project-title yellow">MySQL</h3>
+                               <h3 class="project-title yellow">PostgreSQL</h3>
+                               <h3 class="project-title yellow">Google Firebase</h3>
+                               <h3 class="project-title yellow">SQLite</h3>
+                            </div>
+                            <div class="separator"></div>
+                        </li>
+                    </ul>
+                    <!--Frontend-->
+                    <h3 class="project-title">Frontend</h3>
+                    <ul>
+                        <li class="project-item">
+                            <div class="details-grid">
+                                <h3 class="project-title yellow">HTML</h3>
+                                <h3 class="project-title yellow">Javascript (React Native, jQuery, AJAX)</h3>
+                                <h3 class="project-title yellow">CSS (Bootstrap)</h3>    
+                            </div>
+                            <div class="separator"></div>
+                        </li>
+                    </ul>
+                    <!--DevOps-->
+                        <h3 class="project-title">DevOps</h3>
+                        <ul>
+                            <li class="project-item">
+                                <div class="details-grid">
+                                   <h3 class="project-title yellow">Git (GitHub, GitLab)</h3>
+                                   <h3 class="project-title yellow">Docker</h3>
+                                   <h3 class="project-title yellow">AWS</h3>
+                                   <h3 class="project-title yellow">CI/CD pipelines</h3>
+                                </div>
+                                <div class="separator"></div>
+                            </li>
+                        </ul>
+                    <!--Other fundamentals-->
+                        <h3 class="project-title">Other fundamentals</h3>
+                        <ul>
+                            <li class="project-item">
+                                <div class="details-grid">
+                                   <h3 class="project-title yellow">Waterfall, Agile (Scrum)</h3>
+                                   <h3 class="project-title yellow">Linux (Command Line, Shell Scripting)</h3>
+                                   <h3 class="project-title yellow">RESTful APIs</h3>
+                                   <h3 class="project-title yellow">MVC Architecture</h3>
+                                </div>
+                                <div class="separator"></div>
+                            </li>
+                        </ul>
                 </section>
             </article>
 
